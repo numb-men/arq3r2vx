@@ -1,0 +1,45 @@
+<!--pages/myPosition/myPosition.wxml-->
+<view>
+  <!--轮播图组件-->
+  <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" indicator-dots='true' circular='true'>
+    <block wx:for="{{imgUrls}}" wx:key="*this">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" width="355" height="150"/>
+      </swiper-item>
+    </block>
+  </swiper>
+  
+  <view class="{{positionsShow}}" wx:for="{{myPositionsList}}" wx:key="*this">
+    <!-- data自定义属性-->
+    <view catchtap="modelpop" class="positions" data-name='{{item}}' data-value='{{index}}'>
+      <image src="/images/position_icon.png" class='imageStyle' ></image>
+      <text class="positionsShow-text">{{item}}</text>
+    </view>
+  </view>
+
+  <modal hidden="{{hiddenClickList}}" title="提示" confirm-text="确定" cancel-text="取消" bindcancel="defaultcancel" bindconfirm="defaultconfirm">
+    <text>将{{changePositionName}}设置为默认地址？</text>
+  </modal> 
+  
+  <view>
+    <button class='checkDefaultPosition' bindtap='checkDefaultPosition'><text>查看我的默认地址</text></button>
+  </view> 
+
+  <view >
+    <button class='addPosition' bindtap='addPosition'><text>添加地址</text></button>
+  </view>
+
+  <modal hidden="{{hiddenmodalput}}" title="请输入要添加的详细地址" confirm-text="确定" cancel-text="取消" bindcancel="cancel" bindconfirm="confirm">
+    <view class="section">
+      <picker bindchange="selectMySchool" value="{{mySchoolIndex}}" range="{{mySchoolArray}}" name='mySchool'>
+        <view class='mySchool-style'>
+          学校：{{mySchoolArray[mySchoolIndex]}}
+        </view>
+      </picker>
+    </view>
+      <input type='text'placeholder="请输入详细地址" auto-focus bindinput='myDetailPosition'/>  
+  </modal>  
+
+</view>
+
+

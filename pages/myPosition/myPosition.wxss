@@ -1,0 +1,81 @@
+/* pages/myPosition/myPosition.wxss */
+
+/**添加地址的按钮样式**/
+.addPosition{
+  font-size: 35rpx;
+  color: rgb(49, 47, 46);
+  border: 2rpx solid rgb(119, 117, 116);
+  background-color: rgb(233, 224, 224);
+  padding: 0px;
+  height:80rpx;
+  width: 50%;
+  line-height: 30rpx;
+  margin: 0rpx 0rpx 0rpx 0rpx;
+  display: table;
+}
+.addPosition text {
+  vertical-align:middle;
+  display: table-cell;
+}
+
+/**查看默认地址按钮**/
+.checkDefaultPosition{
+  font-size: 35rpx;
+  color: rgb(49, 47, 46);
+  border: 2rpx solid rgb(119, 117, 116);
+  background-color: rgb(233, 224, 224);
+  padding: 0px;
+  height:80rpx;
+  width: 50%;
+  line-height: 30rpx;
+  margin: 0rpx 0rpx 0rpx 0rpx;
+  display: table;
+  float:left;
+}
+.checkDefaultPosition text {
+  vertical-align:middle;
+  display: table-cell;
+}
+
+.mySchool-style{
+   height:56rpx;
+  width: 77%;
+  margin:40rpx 70rpx;
+  padding: 10rpx;
+  border: 2rpx solid #EB602E;
+  border-radius: 20rpx;
+}
+
+/**地址列表的样式**/
+.positionsShow{
+  background-color: rgb(231, 231, 130);
+  width: 100%;
+  height: 100rpx;
+}
+
+.positionsShowClicked{
+  background: rgb(15, 13, 13);
+}
+
+.positions{
+  margin: 0rpx 0rpx 0rpx 0rpx;
+  border-bottom: 1rpx solid rgb(196, 190, 188);
+  background-color: rgb(245, 245, 237);
+  width: 100%;
+  height: 70rpx;
+  padding: 36rpx 0rpx 0rpx 0rpx;
+  font-family: "幼圆";
+  font-size: 30rpx;
+}
+
+.imageStyle{
+  width: 17px;
+  height: 17px; 
+  background-color: #eeeeee;
+  float: left;
+  padding-top: 5rpx;
+  padding-right: 5rpx;
+}
+.positionsShow-text{
+  
+}

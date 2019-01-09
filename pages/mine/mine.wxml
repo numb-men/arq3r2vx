@@ -1,0 +1,41 @@
+
+<view class="page">
+<view class='ttt'>
+  <view class='header'>
+      <view class='header-icon'>
+        <image src='{{headerUrl}}' class='images'></image>
+    </view>
+    
+    <view class='header-name'>
+      <text>{{nickName}}</text>
+    </view>
+  </view>
+</view>
+  
+
+  <view class='body'>
+    <view class='information'>
+      <text class='myInformation' bindtap='myInformation'>我的信息</text> 
+      <view class='icon_left1'></view>
+    </view>
+
+    <view class='position'>
+      <text class='myPosition' bindtap='myPosition'>我的地址</text>
+      <view class='icon_left2'></view>
+    </view>
+
+    <view class='menu'>
+      <text class='myMenu' bindtap='myMenu'>我的订单</text>
+      <view class='icon_left3'></view>
+    </view>
+
+    <view class='linkPhone' bindtap='myLinkPhone'>
+      <view class='myLinkPhone'>
+        <text >联系客服</text>
+      </view>
+      <view class='phoneid'>
+        <text>400-9057-333</text>
+      </view>
+    </view>
+  </view>
+</view>

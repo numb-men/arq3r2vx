@@ -1,0 +1,89 @@
+/* pages/orderSure/orderSure.wxss */
+
+.pageBckground{
+  
+}
+
+/**订单标题**/
+.orderTitle{
+  font-size: 45rpx;
+  color: black;
+  height:80rpx;
+  width: 80%;
+  line-height: 30rpx;
+  margin: 5rpx 0rpx 0rpx 163rpx;
+  display: table;
+  padding: 20rpx;
+  font-family: "幼圆";
+  font-weight: bold;
+}
+
+/**展示信息的样式**/
+.common{
+  font-size: 35rpx;
+  font-family: "幼圆";
+  color: rgb(131, 128, 127);
+  border-bottom: 1rpx solid rgb(179, 176, 175);
+  background-color: #fff;
+  padding: 0px;
+  height:80rpx;
+  width: 80%;
+  line-height: 30rpx;
+  margin: 30rpx 0rpx 0rpx 68rpx;
+  display: table;
+  font-size: 35rpx;
+}
+.common text {
+  vertical-align:middle;
+  display: table-cell;
+}
+
+.remarks{
+  font-family: "幼圆";
+  color: rgb(131, 128, 127);
+  border-bottom: 1rpx solid rgb(179, 176, 175);
+  background-color: #fff;
+  height:80rpx;
+  width: 80%;
+  line-height: 30rpx;
+  margin: 30rpx 0rpx 0rpx 68rpx;
+  display: table;
+}
+
+/**确定按钮的样式**/
+.messageSure{
+  font-size: 35rpx;
+  color: rgb(20, 16, 15);
+  border: 2rpx solid rgb(226, 220, 217);
+  background-color: rgb(182, 245, 165);
+  padding: 0px;
+  height:80rpx;
+  width: 50%;
+  line-height: 30rpx;
+  margin: 50rpx 0rpx 0rpx 0rpx;
+  display: table;
+  float: left;
+}
+.messageSure text {
+  vertical-align:middle;
+  display: table-cell;
+}
+
+/**确定按钮的样式**/
+.mssageUpdate{
+  font-size: 35rpx;
+  color: rgb(20, 16, 15);
+  border: 2rpx solid rgb(226, 220, 217);
+  background-color: rgb(174, 239, 255);
+  padding: 0px;
+  height:80rpx;
+  width: 50%;
+  line-height: 30rpx;
+  margin: 50rpx 0rpx 0rpx 0rpx;
+  display: table;
+  float: left;
+}
+.mssageUpdate text {
+  vertical-align:middle;
+  display: table-cell;
+}

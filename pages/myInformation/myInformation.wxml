@@ -1,0 +1,52 @@
+<!--pages/myInformation/myInformation.wxml-->
+<view class='bodyInfo'>
+  <view class='blank'></view>
+  <view class="headIcon">
+    <view class='head-icon'>
+      <image mode="scaleToFill" src="{{imageUrl}}" class='icon-size'></image>
+    </view>
+    <view class='nickname'>
+      <text>{{nickName}}</text>
+    </view>
+    <view class='phoneText'>手机号：</view>
+    <view class='showPnone'>
+      <text>{{phone}}</text>
+    </view>
+  </view>
+
+  <view class='sex'>
+    <view class='sexText'>
+      <text >性别</text>
+      <text class='sexValue'>{{gender}}</text>
+    </view>
+  </view>
+
+  <view class='line1'></view>
+
+  <view class='country'>
+    <view class='countryText'>
+      <text >国家</text>
+      <text class='countryValue'>{{country}}</text>
+    </view>
+  </view>
+
+  <view class='line2'></view>
+
+  <view class='province'>
+    <view class='provinceText'>
+      <text >省份</text>
+      <text class='provinceValue'>{{province}}</text>
+    </view>
+  </view>
+  <view class='line3'></view>
+
+  <view class='city'>
+    <view class='cityText'>
+      <text >城市</text>
+      <text class='cityValue'>{{city}}</text>
+    </view>
+  </view>
+  <view class='line4'></view>
+</view>
+
+

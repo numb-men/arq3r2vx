@@ -1,0 +1,148 @@
+/* pages/mine/mine.wxss */
+.body{
+  
+}
+.ttt{
+  margin: 1% 0% 0% 0%;
+  background-image: url("http://pic.58pic.com/58pic/11/81/46/57P58PICM4t.jpg");
+}
+.header{
+  width: 100%;
+  height: 30%;
+  margin: 5% 0% 0% 0%;
+}
+
+.border-icon{
+  width: 152rpx;
+  height: 152rpx;
+  margin: 7% 48% 0% 42%;
+  border-radius: 100%;
+  border: 2rpx solid rgb(12, 13, 14);
+}
+
+.header-icon{
+  width: 135rpx;
+  height: 135rpx;
+  margin: 0% 55% 0% 45%;
+  padding-top: 10%;
+}
+
+.header-name{
+  margin: 0% 55% 10% 45%;
+}
+
+.header-icon image{
+  width: 110rpx;
+  height:110rpx;
+}
+
+.information{
+  border-bottom: 1rpx solid  rgb(189, 185, 185);
+  margin: 0rpx 0rpx 0rpx 0rpx;
+}
+
+.myInformation{
+  font-size: 42rpx;
+  color: rgb(14, 6, 4);
+  background-color: #fff;
+  padding: 0rpx;
+  height:80rpx;
+  width: 80%;
+  line-height: 30rpx;
+  margin: 5% 0rpx 0rpx 68rpx;
+  display: table;
+}
+
+.icon_left1{
+  width: 10px;
+  height: 10px;
+  border-top: 2px solid #999;
+  border-right: 2px solid #999;
+  position: absolute;
+  transform: rotate(45deg);
+  right: 20rpx;
+  margin: 53% 0% 0rpx 0rpx;
+  
+  top:10rpx;
+}
+
+.position {
+  border-bottom: 1rpx solid rgb(189, 185, 185);
+}
+
+.myPosition{
+  font-size: 42rpx;
+  color: rgb(14, 6, 4);
+  background-color: #fff;
+  padding: 0px;
+  height:80rpx;
+  width: 80%;
+  line-height: 30rpx;
+  margin: 5% 0rpx 0rpx 68rpx;
+  display: table;
+}
+
+.icon_left2{
+  width: 10px;
+  height: 10px;
+  border-top: 2px solid #999;
+  border-right: 2px solid #999;
+  position: absolute;
+  right: 20rpx;
+  margin: 70% 0% 0rpx 0rpx;
+  transform: rotate(45deg);
+  top:10rpx;
+}
+
+
+.menu{
+  border-bottom: 1rpx solid rgb(189, 185, 185);
+}
+
+.myMenu{
+  font-size: 42rpx;
+  color: rgb(14, 6, 4);
+  background-color: #fff;
+  padding: 0px;
+  height:80rpx;
+  width: 80%;
+  line-height: 30rpx;
+  margin: 5% 0rpx 0rpx 68rpx;
+  display: table;
+}
+
+.icon_left3{
+  width: 10px;
+  height: 10px;
+  border-top: 2px solid #999;
+  border-right: 2px solid #999;
+  position: absolute;
+  right: 20rpx;
+  transform: rotate(45deg);
+  top:10rpx;
+  margin: 85% 0% 0rpx 0rpx;
+}
+
+.linkPhone{
+}
+
+
+.myLinkPhone{
+  font-size: 42rpx;
+  color: rgb(14, 6, 4);
+  background-color: #fff;
+  padding: 0px;
+  height:80rpx;
+  width: 30%;
+  line-height: 30rpx;
+  margin: 5% 0rpx 0rpx 68rpx;
+  display: table;
+  float: left;
+}
+
+.phoneid{
+  float: right;
+  width: 40%;
+  height:80rpx;
+  margin: 4% 0rpx 0rpx 68rpx;
+}

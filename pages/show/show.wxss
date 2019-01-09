@@ -1,0 +1,68 @@
+/* pages/show/show.wxss */
+.image{
+  margin: 15% 0rpx 0rpx 0rpx;
+}
+.fileImage{
+  width: 100rpx;
+  height: 100rpx;
+   position: absolute;
+  margin-left: 10%;
+ /* margin: 0rpx 0rpx 0rpx 10%;*/
+}
+.fileImage2{
+  width: 100rpx;
+  height: 100rpx;
+  position: absolute;
+  margin-left: 43%;
+ /* margin: 0rpx 0rpx 0rpx 20%;*/
+}
+.fileImage3{
+  width: 100rpx;
+  height: 100rpx;
+ 
+  margin-left: 77%;
+ /* margin: 0rpx 0rpx 0rpx 20%;*/
+}
+.imageText{
+  margin: 0.1% 0rpx 0rpx 0rpx;
+}
+.fileText{
+  font-size:33rpx;
+  font-family: "幼圆"; 
+  position: absolute;
+  margin-left: 8%;
+  /*margin: 0rpx 0rpx 0rpx 10%;*/
+}
+.fileText2{
+  font-size:33rpx;
+  font-family: "幼圆"; 
+  position: absolute;
+  margin-left: 41%;
+ /* margin: 0rpx 0rpx 0rpx 17%;*/
+}
+.fileText3{
+  font-size:33rpx;
+  font-family: "幼圆"; 
+   position: absolute;
+  margin-left:75%;
+ /*/margin: 0rpx 0rpx 0rpx 16%;*/
+}
+
+
+.image2{
+  margin: 15% 0rpx 0rpx 0rpx;
+}
+
+.fileImage4{
+  width: 100rpx;
+  height: 100rpx;
+   
+  margin-left: 8%;
+}
+
+.fileText4{
+   font-size:33rpx;
+  font-family: "幼圆"; 
+  position: absolute;
+  margin-left: 8%;
+}

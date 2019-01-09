@@ -1,0 +1,94 @@
+{
+	"description": "项目配置文件。",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.2.2",
+	"appid": "wx828671bfb24c2981",
+	"projectname": "%E8%B6%A3%E5%8D%B0",
+	"isGameTourist": false,
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 8,
+			"list": [
+				{
+					"id": 0,
+					"name": "grant",
+					"pathName": "pages/grant/grant",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "mine",
+					"pathName": "pages/mine/mine",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "printAttribution",
+					"pathName": "pages/printAttribution/printAttribution",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "orderSure",
+					"pathName": "pages/orderSure/orderSure",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "myPosition",
+					"pathName": "pages/myPosition/myPosition",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "myinfo",
+					"pathName": "pages/myInformation/myInformation",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "mymenu",
+					"pathName": "pages/myMenu/myMenu",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "show",
+					"pathName": "pages/show/show",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "up",
+					"pathName": "pages/upload/upload"
+				}
+			]
+		}
+	}
+}
